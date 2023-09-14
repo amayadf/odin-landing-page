@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+body * {
+    padding: 16px;
+}
+
+/* styles for the navigator */
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    padding: 16px;
+}
+
+.logo {
+    flex-shrink: 0;
+    margin-right: 64px;
+}
+
+.link {
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    column-gap: 24px;
+    margin: 0;
+}
+
+nav a {
+    flex-shrink: 0;
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+/* styles for the information section */
+
+/* styles for character section */
+
+/* styles for quote section */
+
+.quote-section {
+    background-color: #e5e7eb;
+
+}
+
+
+
+/* styles for footer */
