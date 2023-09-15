@@ -25,7 +25,7 @@ button{
 
 nav {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
@@ -79,10 +79,12 @@ nav a {
     background-color: rgb(97, 97, 97);
     color: #f9faf8;
     font-size: 18px;
+    flex-shrink: 0;
 }
 
 .info {
     width: 400px;
+    flex-shrink: 0;
 }
 
 .info-text{
