@@ -89,7 +89,7 @@ a {
 
 .info-text{
     font-weight: bolder;
-    font-size: 36px;
+    font-size: 48px;
     color: #f9faf8;
    
 }
@@ -99,6 +99,49 @@ a {
 }
 
 /* styles for character section */
+
+h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+    margin: 0;
+}
+
+.character-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 32px;
+}
+
+.character-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.character {
+    width: 150px;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+}
+
+.character div {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: 3px solid #3882f6;
+}
+
 
 /* styles for quote section */
 
