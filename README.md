@@ -1,3 +1,10 @@
-# Odin Landing Page
+# odin-landing-page
 
-odin-landing-page is part of Odin Project's curriculum to learn web development. 
+# # What is odin-landing-page?
+
+odin-landing-page is one of the individual assignments of Odin's Project web development curriculum. It consists of a simple template for a landing page, built with HTML and CSS. It's not functional.
+
+# # What did I learn?
+
+- Using appropiate HTML markup.
+- Styling with CSS
